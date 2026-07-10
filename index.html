@@ -102,8 +102,8 @@
     <svg id="musicPlayIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
   </button>
   <div id="musicInfo">
-    <div id="musicTitle">background track</div>
-    <div id="musicSub">tap to play</div>
+    <div id="musicTitle">WHOOPA</div>
+    <div id="musicSub">WHOOPA</div>
   </div>
   <input type="range" id="musicVol" min="0" max="30" value="30">
   <audio id="bgAudio" src="GORILLA GLUE, LIL NAKUR - WOOPAAA (SPOTISAVER).mp3" preload="auto" loop></audio>
@@ -115,7 +115,7 @@
   const musicIcon = document.getElementById('musicPlayIcon');
   const musicVol = document.getElementById('musicVol');
 
-  bgAudio.volume = musicVol.value / 300;
+  bgAudio.volume = musicVol.value / 30;
 
   function setMusicUI(isPlaying){
     musicIcon.innerHTML = isPlaying
